@@ -1,16 +1,16 @@
-            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-            body {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-                overflow-x: hidden;
-                font-family: 'Poppins', sans-serif;
-            }
-            
-            .hero-text {
-                color: white;
-            }
-            
-            .about {
-                text-align: center;
-            }
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .hero-text {
+            color: white;
+        }
+        
+        .about {
+            text-align: center;
+        }
