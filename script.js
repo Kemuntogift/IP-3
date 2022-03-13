@@ -17,5 +17,7 @@ $(document).ready(function() {
 
             //add hover effect on portfolio images
             $('.portfolioimg').hover(function() {
-                        $('.portfoliotext', this).slideToggle('slow');
-                    }
+                $('.portfoliotext', this).slideToggle('slow');
+            }, function() {
+                $('.porttext', this).slideToggle('slow');
+            });
