@@ -4,3 +4,5 @@
 //et userMail = document.getElementById("email");
 //let userMessage = document.getElementById("message");$(document).ready(function() {
 $(document).ready(function() {
+            //form validation
+            $("#form").submit(function(event) {
