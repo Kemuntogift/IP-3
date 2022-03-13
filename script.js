@@ -50,5 +50,15 @@ $(document).ready(function() {
         $("#development").toggle();
         $("#development").show();
     });
+    $("#product").click(function() {
+        $("#product").hide();
+        $(".wwd3").toggle();
+        $(".wwd3").show();
+    });
+    $(".wwd3").click(function() {
+        $(".wwd3").hide();
+        $("#product").toggle();
+        $("#product").show();
+    });
 
 });
