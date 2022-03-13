@@ -30,14 +30,25 @@ $(document).ready(function() {
 
     //toggle
 
-    $(".one").click(function() {
-        $(".one").fadeIn("slow").hide();
-        $("#design").fadeIn().hide();
-        $(".service1").show();
+    $("#design").click(function() {
+        $("#design").hide();
+        $(".wwd1").toggle();
+        $(".wwd1").show();
     });
-    $(".service1").click(function() {
-        $(".service1").slideUp();
-        $(".one").slideDown();
-        $("#design").slideDown();
+    $(".wwd1").click(function() {
+        $(".wwd1").hide();
+        $("#design").toggle();
+        $("#design").show();
     });
+    $("#development").click(function() {
+        $("#development").hide();
+        $(".wwd2").toggle();
+        $(".wwd2").show();
+    });
+    $(".wwd2").click(function() {
+        $(".wwd2").hide();
+        $("#development").toggle();
+        $("#development").show();
+    });
+
 });
