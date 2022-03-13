@@ -6,3 +6,6 @@
 $(document).ready(function() {
             //form validation
             $("#form").submit(function(event) {
+                        let userName = $("input#name").val();
+                        let userMail = $("input#email").val();
+                        let userMessage = $("input#message").val(
